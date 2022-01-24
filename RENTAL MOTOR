@@ -1,0 +1,44 @@
+<? php
+ hitungclass
+{ private $harga;
+    private $diskon;
+    //     constructor
+    public function __construct(public string $harga = "27.500", public string $diskon = "5% , public int $jam = 7jam)
+    {
+        {
+            $this->harga = $harga;
+            $this->diskon =$diskon;
+            $this-> jam = $jam;
+        }
+        public function setharga(string $harga)
+    {
+        $this->harga = $harga;
+    }
+        public function getharga()
+    {
+        return $this->harga;
+    }
+    public function  setdiskon(string $diskon) 
+    
+    {{
+            return $this->diskon;
+        }
+        public function  setjam(string $jam) 
+    {
+        $this->jam;
+    }
+    public function display():void
+    {
+        echo "harga :."$this->getharga();
+        echo "<br>" ;
+        echo "diskon: ."$this->diskon();
+        echo "<br>";
+        echo "waktu : ."$this->waktu();
+    
+    }
+    }  
+    $rental1 = new rental2();
+    $rental1->setharga(harga : 27.500);
+    $rental1->setdiskon(diskon : 5%);
+    $rental1->setwaktu(waktu
+    echo $contoh1->display();
